@@ -492,7 +492,7 @@ body{
 
 
 
-/* ----------------------------------COMMENTS------------------ */
+/* ----------------------------------KIRISPE------------------ */
 
 .kirispe{
     height: 300px;
@@ -554,3 +554,462 @@ body{
     width: 80%;
     margin: 0 auto 10%;
 }
+
+
+
+
+
+
+
+
+
+/* --------------------------GALLERY--------------------------- */
+
+.gallery .gallery-category h1{
+    color: #fff;
+    font-size: 24px;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: 700;
+}
+
+
+.gallery .gallery-category{
+    overflow: hidden;
+}
+
+.gallery .gallery-category:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.gallery-category a{
+    text-decoration: none;
+}
+
+.gallery .about-member{
+    margin: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: radial-gradient(#011E60, #011d6089);
+    width: 312px;
+    height: 0px;
+    color: #fff;
+    transition: .5s;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .gallery-category:hover .about-member{
+    height: 316px;
+}
+
+.gallery .gallery-category:hover .about-member h1{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.gallery{
+    width: 80%;
+    margin: auto;
+}
+
+.gallery img{
+    width: 328px;
+    height: 332px;
+    object-fit: cover;
+    margin: auto;
+    /* box-shadow: 5px 5px 20px #011d605b; */
+    position: absolute;
+    margin-bottom: 10%;
+}
+
+.gallery .boxes{
+    width: 100%;
+    min-height: 332px;
+    margin: 0 auto 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+    .gallery .boxes{
+        flex-direction: column;
+        margin: 10% auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .gallery img{
+        width: 100%;
+        height: 100%;
+        margin: 5% auto;
+        position: relative ;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------PUPILS-------------------------- */
+
+.pupils .gallery-category h1{
+    color: #fff;
+    font-size: 24px;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: 700;
+}
+
+
+.pupils .gallery-category{
+    overflow: hidden;
+}
+
+.pupils .gallery-category:hover{
+    cursor: pointer;
+}
+
+.pupils .about-member{
+    margin: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: radial-gradient(#011E60, #011d6089);
+    width: 312px;
+    height: 0px;
+    color: #fff;
+    transition: .5s;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pupils .gallery-category:hover .about-member h1{
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.pupils{
+    width: 80%;
+    margin: auto;
+    /* min-height: 664px; */
+}
+
+.pupils img{
+    width: 328px;
+    height: 332px;
+    object-fit: cover;
+    margin: auto;
+    /* box-shadow: 5px 5px 20px #011d605b; */
+    position: absolute;
+    margin-bottom: 10%;
+}
+
+.pupils .boxes{
+    width: 100%;
+    min-height: 332px;
+    margin: 0 auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pupils .boxes2{
+    width: 100%;
+    min-height: 332px;
+    margin: 3% auto 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+    .pupils .boxes{
+        flex-direction: column;
+        margin: 10% auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pupils .boxes2{
+        flex-direction: column;
+        margin: 10% auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pupils img{
+        width: 100%;
+        height: 100%;
+        margin: 5% auto;
+        position: relative ;
+    }
+}
+
+
+
+
+
+
+/* -------------------------------FORMA-------------- */
+#forma{
+    min-height: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------MAP-------------- */
+.map iframe{
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 1200px) {
+    .map iframe{
+        height: 350px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------TEACHERS------------------------- */
+
+.center{
+    width: 80%;
+    display: flex;
+    margin: -5% auto 5%;
+}
+
+.pagination-nav{
+    margin: auto;
+}
+
+
+
+
+
+
+/* .teachers .gallery-category h1{
+    color: #fff;
+    font-size: 24px;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: 700;
+}
+
+
+.teachers .gallery-category{
+    overflow: hidden;
+}
+
+.teachers .gallery-category:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.teachers-category a{
+    text-decoration: none;
+}
+
+.teachers .about-member{
+    margin: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: radial-gradient(#011E60, #011d6089);
+    width: 312px;
+    height: 0px;
+    color: #fff;
+    transition: .5s;
+    justify-content: center;
+    align-items: center;
+}
+
+.teachers .teacher:hover .about-member{
+    height: 316px;
+}
+
+.teachers .teacher:hover .about-member h1{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.teachers{
+    width: 80%;
+    margin: auto;
+}
+
+.teachers img{
+    width: 328px;
+    height: 332px;
+    object-fit: cover;
+    margin: auto;
+    position: absolute;
+    margin-bottom: 10%;
+}
+
+.teachers .boxes{
+    width: 100%;
+    min-height: 332px;
+    margin: 0 auto 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+    .teachers .boxes{
+        flex-direction: column;
+        margin: 10% auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .teachers img{
+        width: 100%;
+        height: 100%;
+        margin: 5% auto;
+        position: relative ;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.teachers .teaceher h1{
+    color: #fff;
+    font-size: 24px;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: 700;
+}
+
+
+.teachers .teacher{
+    overflow: hidden;
+}
+
+.teachers .teacher:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.teacher a{
+    text-decoration: none;
+}
+
+.teachers .about-member{
+    margin: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: radial-gradient(#011E60, #011d6089);
+    width: 312px;
+    height: 0px;
+    color: #fff;
+    transition: .5s;
+    justify-content: center;
+    align-items: center;
+}
+
+.teachers .teacher:hover .about-member{
+    height: 316px;
+}
+
+.teachers .teacher:hover .about-member h1{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.teachers{
+    width: 80%;
+    margin: auto;
+}
+
+.teachers img{
+    width: 328px;
+    height: 332px;
+    object-fit: cover;
+    margin: auto;
+    /* box-shadow: 5px 5px 20px #011d605b; */
+    position: absolute;
+    margin-bottom: 10%;
+}
+
+.teachers .boxes{
+    width: 100%;
+    min-height: 332px;
+    margin: 0 auto 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+    .teachers .boxes{
+        flex-direction: column;
+        margin: 10% auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .teachers img{
+        width: 100%;
+        height: 100%;
+        margin: 5% auto;
+        position: relative ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
