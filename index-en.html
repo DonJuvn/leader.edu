@@ -180,7 +180,9 @@
       <div class="container">
         <div class="intro">
 
-          <img src="img/principle.png" alt="">
+          <div class="intro-img">
+            <img src="img/principle.png" alt=""> 
+          </div>
 
 
           <div class="text">
@@ -245,32 +247,89 @@
 <div class="container">
 
   <div class="statistics">
-    <h1 class="title">About statistics</h1>
+    <h1 class="title">Қысқаша статистика туралы</h1>
     <div class="boxes">
   
-      <div class="statistic">
+      <!-- <div class="statistic">
         <img src="img/badge.png" alt="">
         <b><h1>60</h1></b>
-        <p>Prizes</p>
+        <p>Жүлде</p>
+      </div> -->
+
+      <div class="statistic">
+        <img src="img/badge.png" alt="">
+        <b><h1 id="badge"><!-- counts --></h1></b>  
+        <p>Жүлде</p>
+        
       </div>
+  
+    <script>
+        let badge=setInterval(updated);
+        let upto_badge=0;
+        function updated(){
+            var count= document.getElementById("badge");
+            count.innerHTML= ++upto_badge;
+            if(upto_badge == 60) {
+                clearInterval(badge);
+            }
+        }
+    </script>
+
+
   
       <div class="statistic">
         <img src="img/trophy.png" alt="">
-        <b><h1>7</h1></b>
-        <p>Trophies</p>
+        <b><h1 id="trophy"><!-- counts --></h1></b>
+        <p>Кубок</p>
       </div>
+      <script>
+        let trophy=setInterval(updated2);
+        let upto_trophy=0;
+        function updated2(){
+            var count= document.getElementById("trophy");
+            count.innerHTML= ++upto_trophy;
+            if(upto_trophy == 7) {
+                clearInterval(trophy);
+            }
+        }
+    </script>
+
+
+
   
       <div class="statistic">
         <img src="img/class.png" alt="">
-        <b><h1>77</h1></b>
-        <p>Teachers</p>
+        <b><h1 id="class"><!-- counts --></h1></b>
+        <p>Оқытушы</p>
       </div>
+      <script>
+        let clas=setInterval(updated3);
+        let upto_class=0;
+        function updated3(){
+            var count= document.getElementById("class");
+            count.innerHTML= ++upto_class;
+            if(upto_class == 77) {
+                clearInterval(clas);
+            }
+        }
+    </script>
   
       <div class="statistic">
         <img src="img/classroom.png" alt="">
-        <b><h1>250</h1></b>
-        <p>Students</p>
+        <b><h1 id="classroom"><!-- counts --></h1></b>
+        <p>Оқушы</p>
       </div>
+      <script>
+        let clasroom=setInterval(updated4);
+        let upto_classroom=0;
+        function updated4(){
+            var count= document.getElementById("classroom");
+            count.innerHTML= ++upto_classroom;
+            if(upto_classroom == 250) {
+                clearInterval(clasroom);
+            }
+        }
+    </script>
   
     </div>
   </div>
@@ -343,7 +402,7 @@
             he was happy to go to school.
             Both the upbringing and education of the school
             I like it.</p>
-            <b><h4>missis Madina</h4></b>
+            <b><h4>missis Madina, parent</h4></b>
         </div>
       </div>
     </div>
@@ -364,7 +423,7 @@
         <ul class="nav justify-content-end">
 
           <li class="nav-item" >
-            <p class="nav-link"><img src="img/mark.png" width="20px;" alt=""> Shymkent city Maily Kozha street 150</p>
+            <p class="nav-link"><img src="img/mark.png" width="20px;" alt=""> Shymkent city Argynbekova street 1180</p>
           </li>
 
           <li class="nav-item" >
@@ -394,10 +453,15 @@
   </div>  
 </div>
 
+<div class="container">
+  <div class="city">
+  <p>© Шымкент 2023</p>
+  </div>
+</div>
+
 <div class="blueline">
 
 </div>
-
 
 
 

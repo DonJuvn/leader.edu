@@ -27,7 +27,7 @@
                     <a href="https://www.instagram.com/leader.edu.kz/" target="_blank"><img src="img/instagram.png" width="16px;" alt=""></a>
                 </div>
                 <div class="social">
-                    <a href="#"><img src="img/facebook.png" width="16px;" alt=""></a>
+                    <a href="https://youtube.com/@leaderinnovationschool9389" target="_blank"><img src="img/facebook.png" width="16px;" alt=""></a>
                 </div>
                 <div class="social">
                     <a href="#"><img src="img/youtube.png" width="16px;" alt=""></a>
@@ -79,7 +79,7 @@
                 <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     БІЗ ЖАЙЛЫ
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="kirispe.html">КІРІСПЕ СӨЗ</a></li>
                   <li><a class="dropdown-item" href="kundylyktar.html">БАСШЫЛЫҚ ПРИНЦИПТЕРІМІЗ</a></li>
                   <li><a class="dropdown-item" href="akimshilik.html">МЕКТЕП ӘКІМШІЛІГІ</a></li>
@@ -180,8 +180,9 @@
       <div class="container">
         <div class="intro">
 
-          <img src="img/principle.png" alt="">
-
+          <div class="intro-img">
+            <img src="img/principle.png" alt=""> 
+          </div>
 
           <div class="text">
             <div class="title">
@@ -250,29 +251,86 @@
     <h1 class="title">Қысқаша статистика туралы</h1>
     <div class="boxes">
   
-      <div class="statistic">
+      <!-- <div class="statistic">
         <img src="img/badge.png" alt="">
         <b><h1>60</h1></b>
         <p>Жүлде</p>
+      </div> -->
+
+      <div class="statistic">
+        <img src="img/badge.png" alt="">
+        <b><h1 id="badge"><!-- counts --></h1></b>  
+        <p>Жүлде</p>
+        
       </div>
+  
+    <script>
+        let badge=setInterval(updated);
+        let upto_badge=0;
+        function updated(){
+            var count= document.getElementById("badge");
+            count.innerHTML= ++upto_badge;
+            if(upto_badge == 60) {
+                clearInterval(badge);
+            }
+        }
+    </script>
+
+
   
       <div class="statistic">
         <img src="img/trophy.png" alt="">
-        <b><h1>7</h1></b>
+        <b><h1 id="trophy"><!-- counts --></h1></b>
         <p>Кубок</p>
       </div>
+      <script>
+        let trophy=setInterval(updated2);
+        let upto_trophy=0;
+        function updated2(){
+            var count= document.getElementById("trophy");
+            count.innerHTML= ++upto_trophy;
+            if(upto_trophy == 7) {
+                clearInterval(trophy);
+            }
+        }
+    </script>
+
+
+
   
       <div class="statistic">
         <img src="img/class.png" alt="">
-        <b><h1>77</h1></b>
+        <b><h1 id="class"><!-- counts --></h1></b>
         <p>Оқытушы</p>
       </div>
+      <script>
+        let clas=setInterval(updated3);
+        let upto_class=0;
+        function updated3(){
+            var count= document.getElementById("class");
+            count.innerHTML= ++upto_class;
+            if(upto_class == 77) {
+                clearInterval(clas);
+            }
+        }
+    </script>
   
       <div class="statistic">
         <img src="img/classroom.png" alt="">
-        <b><h1>250</h1></b>
+        <b><h1 id="classroom"><!-- counts --></h1></b>
         <p>Оқушы</p>
       </div>
+      <script>
+        let clasroom=setInterval(updated4);
+        let upto_classroom=0;
+        function updated4(){
+            var count= document.getElementById("classroom");
+            count.innerHTML= ++upto_classroom;
+            if(upto_classroom == 250) {
+                clearInterval(clasroom);
+            }
+        }
+    </script>
   
     </div>
   </div>
@@ -346,7 +404,7 @@
             да мектепке қуана кетеді.
             Мектептің тәрбиесі де, білімі де
             ұнайды.</p>
-            <b><h4>Мадина ханым</h4></b>
+            <b><h4>Мадина ханым, ата-ана</h4></b>
         </div>
       </div>
     </div>
@@ -368,7 +426,7 @@
         <ul class="nav justify-content-end">
 
           <li class="nav-item" >
-            <p class="nav-link"><img src="img/mark.png" width="20px;" alt=""> Шымкент қаласы Майлы Қожа көшесі 150</p>
+            <p class="nav-link"><img src="img/mark.png" width="20px;" alt=""> Шымкент қаласы Арғынбекова көшесі 1180</p>
           </li>
 
           <li class="nav-item" >
@@ -396,6 +454,12 @@
     </div>
 
   </div>  
+</div>
+
+<div class="container">
+  <div class="city">
+  <p>© Шымкент 2023</p>
+  </div>
 </div>
 
 <div class="blueline">
