@@ -21,7 +21,7 @@
     <div class="container">
         <div class="header-contacts">
             <div class="logo">
-                <a href="index.html"><img src="img/logo.png" width="120px;" alt=""></a>
+                <a href="index-en.html"><img src="img/logo.png" width="120px;" alt=""></a>
             </div>
 
             <ul class="nav justify-content-end">
@@ -34,7 +34,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" style="padding-bottom: 25px;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">қаз</a>
+                  <a class="nav-link dropdown-toggle" style="padding-bottom: 25px;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">en</a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="index.html">қаз</a></li>
                     <li><a class="dropdown-item" href="index-en.html">en</a></li>
@@ -54,68 +54,68 @@
           <div class="collapse navbar-collapse"  id="navbarNavDropdown">
             <ul class="navbar-nav" style="width: 80%; justify-content: space-between; margin: auto;">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">БАСТЫ БЕТ</a>
+                <a class="nav-link" aria-current="page" href="index-en.html">MAIN PAGE</a>
               </li>
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    БІЗ ЖАЙЛЫ
+                    ABOUT US
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="kirispe.html">КІРІСПЕ СӨЗ</a></li>
-                  <li><a class="dropdown-item" href="kundylyktar.html">БАСШЫЛЫҚ ПРИНЦИПТЕРІМІЗ</a></li>
-                  <li><a class="dropdown-item" href="akimshilik.html">МЕКТЕП ӘКІМШІЛІГІ</a></li>
-                  <li><a class="dropdown-item" href="kuntizbe.html">ЖЫЛДЫҚ КҮНТІЗБЕ</a></li>
-                  <li><a class="dropdown-item" href="gallery.html">ГАЛЕРЕЯ</a></li>
+                  <li><a class="dropdown-item" href="kirispe-en.html">INTRODUCTION SPEECH</a></li>
+                  <li><a class="dropdown-item" href="kundylyktar-en.html">OUR GUIDING PRINCIPLES</a></li>
+                  <li><a class="dropdown-item" href="akimshilik-en.html">GOVERNMENT</a></li>
+                  <li><a class="dropdown-item" href="kuntizbe-en.html">ANNUAL CALENDAR</a></li>
+                  <li><a class="dropdown-item" href="gallery-en.html">GALLERY</a></li>
                 </ul>
               </li>
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    МЕКТЕПКЕ ҚАБЫЛДАУ
+                    ADMISSION TO THE SCHOOL
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="suraktar.html">ЖИІ ҚОЙЫЛАТНЫ СҰРАҚТАР</a></li>
-                  <li><a class="dropdown-item" href="forma.html">МЕКТЕП ФОРМАСЫ</a></li>
-                  <li><a class="dropdown-item" href="kuzhat.html">ҚАБЫЛДАУ ҚҰЖАТ</a></li>
+                  <li><a class="dropdown-item" href="suraktar-en.html">FREQUENTLY ASKED QUESTIONS</a></li>
+                  <li><a class="dropdown-item" href="forma-en.html">UNIFORM</a></li>
+                  <li><a class="dropdown-item" href="kuzhat-en.html">ACCEPTANCE DOCUMENT</a></li>
                 </ul>
               </li>
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    БАСТАУЫШ
+                    PRIMARY SCHOOL
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="teachers.html">ҰСТАЗДАР</a></li>
-                  <li><a class="dropdown-item" href="tarbie_zhumysy.html">ТӘРБИЕ ЖҰМЫСЫ</a></li>
-                  <li><a class="dropdown-item" href="uirme.html">САБАҚТАН ТЫС ЖҰМЫСТАР</a></li>
+                  <li><a class="dropdown-item" href="teachers-en.html">TEACHERS</a></li>
+                  <li><a class="dropdown-item" href="tarbie_zhumysy-en.html">EDUCATIONAL WORK</a></li>
+                  <li><a class="dropdown-item" href="uirme-en.html">EXTRACURRICULAR ACTIVITIES</a></li>
                 </ul>
               </li>
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    ЖОҒАРҒЫ МЕКТЕП
+                    HIGH SCHOOL
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="teachers.html">ҰСТАЗДАР</a></li>
-                  <li><a class="dropdown-item" href="tarbie_zhumystary2.html">ТӘРБИЕ ЖҰМЫСЫ</a></li>
-                  <li><a class="dropdown-item" href="oob-zhumys.html">ӨЗІН - ӨЗІ БАСҚАРУ КЕҢЕСІ</a></li>
+                  <li><a class="dropdown-item" href="teachers-en.html">TEACHERS</a></li>
+                  <li><a class="dropdown-item" href="tarbie_zhumystary2-en.html">EDUCATIONAL WORK</a></li>
+                  <li><a class="dropdown-item" href="oob-zhumys-en.html">SELF-GOVERNMENT COUNCIL</a></li>
                 </ul>
               </li>
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    АТА - АНА
+                    PARENTS
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="ata-ana.html">АТА - АНАМЕН ЖҰМЫС</a></li>
-                  <li><a class="dropdown-item" href="akeler.html">ӘКЕЛЕР КЕҢЕСІ</a></li>
-                  <li><a class="dropdown-item" href="ata-ana-kom.html">АТА - АНАЛАР КОМИТЕТІ</a></li>
+                  <li><a class="dropdown-item" href="ata-ana-en.html">WORKING WITH PARENTS</a></li>
+                  <li><a class="dropdown-item" href="akeler-en.html">THE COUNCIL OF FATHERS</a></li>
+                  <li><a class="dropdown-item" href="ata-ana-kom-en.html">PARENTS COMMITTEE</a></li>
                 </ul>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="bailanys.html">БАЙЛАНЫС</a>
+                <a class="nav-link" aria-current="page" href="bailanys-en.html">Contacts</a>
               </li>
 
             </ul>
